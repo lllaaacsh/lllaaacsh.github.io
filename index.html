@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yazhe Wan</title>
+  <meta name="author" content="Yazhe Wan">
+  <meta name="description" content="Yazhe Wan (万亚哲) — PhD student at Queen Mary University of London working on embodied AI, robotics and computer vision.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- ==================== Header ==================== -->
+    <header class="header">
+      <div class="header-text">
+        <p class="name">Yazhe Wan <span style="font-size:22px">(万亚哲)</span></p>
+        <p>
+          I'm currently a PhD student in the
+          <a href="https://cis.eecs.qmul.ac.uk/index.html">Centre for Intelligent Sensing</a>
+          within the School of Electronic Engineering and Computer Science at
+          <a href="https://www.qmul.ac.uk/">Queen Mary, University of London</a>,
+          supervised by <a href="https://eecs.qmul.ac.uk/~coh/">Dr. Changjae Oh</a>
+          and <a href="https://sites.google.com/view/ziquanliu">Dr. Ziquan Liu</a>.
+          I joined this Ph.D. program after completing my undergraduate studies through the
+          Joint Programme between Queen Mary University of London and
+          Beijing University of Posts and Telecommunications (<a href="https://www.bupt.edu.cn/">BUPT</a>).
+        </p>
+        <p class="links">
+          <a href="mailto:yazhe.wan@qmul.ac.uk">Email</a> &nbsp;/&nbsp;
+          <a href="https://scholar.google.co.uk/citations?user=vAienOwAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+          <a href="https://github.com/lllaaacsh">GitHub</a>
+          <!-- Add a CV later: &nbsp;/&nbsp; <a href="files/CV.pdf">CV</a> -->
+        </p>
+      </div>
+      <div class="header-photo">
+        <img src="images/profile.jpg" alt="Yazhe Wan">
+      </div>
+    </header>
+
+    <!-- ==================== Research ==================== -->
+    <section>
+      <h2>Current Research (Ph.D.)</h2>
+      <p>
+        My research interests lie in embodied AI, robotics, and computer vision.
+        I am currently working on multi-modal foundation models for generalizable robotic manipulation.
+      </p>
+    </section>
+
+    <!-- ==================== News (uncomment to enable) ====================
+    <section>
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">[2026.09]</span> One paper accepted to <strong>CoRL 2026</strong>.</li>
+      </ul>
+    </section>
+    -->
+
+    <!-- ==================== Publications ==================== -->
+    <section>
+      <h2>Publications</h2>
+
+      <!--
+        To add a paper: copy one <div class="paper">...</div> block below.
+        Use class="paper highlight" to give a paper a yellow background.
+        A looping video can replace the image:
+          <video src="images/demo.mp4" autoplay loop muted playsinline></video>
+      -->
+
+      <div class="paper">
+        <div class="paper-thumb">
+          <img src="images/relational_alignment.jpg" alt="Point-wise vs. relational alignment between 3D and 2D feature spaces">
+        </div>
+        <div class="paper-info">
+          <span class="papertitle">Relational Spatial Alignment for Vision-Language-Action Models</span>
+          <br>
+          <a href="https://noone65536.github.io/">Chaoran Zhu</a>,
+          <a href="https://hengyiwang.github.io/">Hengyi Wang</a>,
+          <a href="https://ieeexplore.ieee.org/author/37089339348">Chenglin Cui</a>,
+          <strong>Yazhe Wan</strong>,
+          Taein Kwon,
+          <a href="https://eecs.qmul.ac.uk/~coh/">Changjae Oh</a>
+          <br>
+          <em>Conference on Robot Learning (CoRL)</em>, 2026
+          <p class="paper-desc">Aligning relational structure, rather than individual features, between 3D and 2D feature spaces for spatially-aware VLA models.</p>
+        </div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-thumb">
+          <img src="images/dat.jpg" alt="Open-vocabulary detection results of DAT">
+        </div>
+        <div class="paper-info">
+          <a href="https://arxiv.org/abs/2605.03642"><span class="papertitle">The Detector Teaches Itself: Lightweight Self-Supervised Adaptation for Open-Vocabulary Object Detection</span></a>
+          <br>
+          <strong>Yazhe Wan</strong>,
+          <a href="https://eecs.qmul.ac.uk/~coh/">Changjae Oh</a>
+          <br>
+          <em>International Conference on Pattern Recognition (ICPR)</em>, 2026
+          <br>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-032-31397-3_4">paper</a> /
+          <a href="https://arxiv.org/abs/2605.03642">arXiv</a> /
+          <a href="https://github.com/QM-IPAlab/DAT">code</a> /
+          <a href="files/bibtex/wan2026dat.bib">bibtex</a>
+          <p class="paper-desc">A plug-and-play, self-supervised fine-tuning of the VLM backbone (&lt;0.8M parameters) that improves region-level features for cooperative open-vocabulary detection.</p>
+        </div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-thumb">
+          <img src="images/eva_score.svg" alt="EVA-Score: extraction, validation, information score">
+        </div>
+        <div class="paper-info">
+          <a href="https://arxiv.org/abs/2407.04969"><span class="papertitle">EVA-Score: Evaluating Abstractive Long-form Summarization on Informativeness through Extraction and Validation</span></a>
+          <br>
+          Yuchen Fan,
+          <strong>Yazhe Wan</strong>,
+          Xin Zhong,
+          Haonan Cheng,
+          Ning Ding,
+          Bowen Zhou
+          <br>
+          <em>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, 2026
+          <br>
+          <a href="https://ieeexplore.ieee.org/abstract/document/11462359/">paper</a> /
+          <a href="https://arxiv.org/abs/2407.04969">arXiv</a> /
+          <a href="files/bibtex/fan2026evascore.bib">bibtex</a>
+          <p class="paper-desc">An information-based metric for long-form summaries that extracts the information in a summary and validates it against the reference.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Footer ==================== -->
+    <footer>
+      Last updated: Oct 2026. Template adapted from
+      <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+    </footer>
+
+  </div>
+</body>
+
+</html>
